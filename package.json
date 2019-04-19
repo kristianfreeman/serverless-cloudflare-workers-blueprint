@@ -1,23 +1,19 @@
 {
-  "name": "hugo-workers-example",
+  "name": "serverless-workers-blueprint",
   "private": true,
-  "description": "Example project for serving Hugo sites with Cloudflare Workers",
+  "description": "Simple blueprint for building Cloudflare Workers and deploying them with the Serverless Framework",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kristian Freeman <kristian@kristianfreeman.com>",
   "dependencies": {
     "serverless-cloudflare-workers": "^1.2.0",
     "serverless-dotenv-plugin": "^2.0.1",
     "serverless-webpack": "^5.2.0"
   },
-  "homepage": "https://github.com/signalnerve/hugo-cloudflare-workers-example",
+  "homepage": "https://github.com/signalnerve/serverless-workers-blueprint",
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "build": "hugo",
-    "deploy": "hugo && bin/deploy"
+    "url": "git+https://github.com/signalnerve/serverless-workers-blueprint.git"
   }
 }
